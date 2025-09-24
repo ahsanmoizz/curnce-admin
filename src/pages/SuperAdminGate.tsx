@@ -6,7 +6,7 @@ const SuperAdminGate: React.FC<{ children: React.ReactNode }> = ({ children }) =
   );
   const [input, setInput] = useState("");
 
-  const correctPassword = import.meta.env.VITE_SUPERADMIN_PASSWORD;
+  const correctPassword ="curnceappadminsuperadmin@@11122$@yuinxcrf!?";
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
