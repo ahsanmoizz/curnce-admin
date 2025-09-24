@@ -1,7 +1,7 @@
 // src/lib/adminApi.ts (ya jahan bhi rakha hai)
 
 // ✅ .env se base URL le lo
-const API_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
+const API_URL = "https://api.curnce.com";
 
 // ✅ auto-append /v1/subscription for subscription endpoints
 function resolvePath(path: string) {
